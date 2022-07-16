@@ -1,7 +1,7 @@
-### My goals for here will be the following:
-* What are houses selling for by parish, city, area?
-* What is teh median/mean rent for all of teh abpve adn add neioghborhoods as well?
-* What are the Section 8 housing rents looking like?
-* Make  a Live calculator that will give use a estimate of the total cost of a home(15 vs 30 years),
-* Monthly payment, and a place to add our own variabke cost if needed. using APIs for teh following:
+My goals for here will be the following:
+What are houses selling for by parish, city, area?
+What is teh median/mean rent for all of teh abpve adn add neioghborhoods as well?
+What are the Section 8 housing rents looking like?
+Make  a Live calculator that will give use a estimate of the total cost of a home(15 vs 30 years),
+Monthly payment, and a place to add our own variabke cost if needed. using APIs for teh following:
 -Interest rates(min and Max across the country).

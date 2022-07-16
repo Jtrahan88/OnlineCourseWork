@@ -2,6 +2,7 @@
 My interests and real life aspects I wanted to know more about:
 
 ## Realestate
+Purpose - I would like to start buying Rental income homes to help build for my retirement. 
 ### Louisiana_Housing
 My goals for here will be the following:
 * What are houses selling for by parish, city, area?

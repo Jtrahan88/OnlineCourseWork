@@ -1,7 +1,8 @@
 # CapStoneProjects
 My interests and real life aspects I wanted to know more about:
 
-## Louisiana_Housing
+## Realestate
+### Louisiana_Housing
 My goals for here will be the following:
 * What are houses selling for by parish, city, area?
 * What is teh median/mean rent for all of teh abpve adn add neioghborhoods as well?

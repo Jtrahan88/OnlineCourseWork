@@ -26,6 +26,9 @@ My goals for here will be the following:
 The main goal is to anser the questions above so we can get a better idea quickly if we should start to look into buy the home.s in questions. This will not help with due deligance(grandfather clauses, inspections, etc) and will have more to research. But this will at least give us a final overview so we can see if teh home in question is worth spendig time on/buying.
 #### Next steps:
 *this will be completly once teh project is done.*
+#### Sources:
+* https://rapidapi.com/blog/best-real-estate-apis/ - This site gave me top 7(thier words) APIs I could use for this project. 
+- Will use multiple, one for rental rates in a given time frame, and prices sold in a given time frame
 
 ## Crypto Gaming
 * I got into NFTs for the video games. Would like to run some analysts on this new field. 

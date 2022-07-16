@@ -1,10 +1,9 @@
 
-#### Purpose:
+# Purpose:
 * I would like to start buying Rental income homes to help build for my retirement. 
 
-### Louisiana Housing
 
-#### Problems:
+## Problems:
 My goals for here will be the following:
 * What are houses selling for by parish, city, area?
 * What is the median/mean rent for all of the above and add neighborhoods as well?
@@ -16,7 +15,7 @@ My goals for here will be the following:
 * Creating not just a mortgage calculate as well as a Rental calculator
 - Rental calculator will have ROI, ROI debt payment over 5 years, Cap rate etc.
 - This will help us determine quickly if we should buy this home or not. 
-#### Terms to define and to know what is teh best %/gain/Loss for todays market)
+### Terms to define and to know what is teh best %/gain/Loss for todays market)
 * Define ROI
 * Define 1% rule
 * Define Cap Rate
@@ -44,16 +43,16 @@ My goals for here will be the following:
 - Principal and intrest(Negative)
 - Return on intial investment, Year(Should be a %)
 
-#### Solutions:
+## Solutions:
 * Will use *Python* to min and clean the data.
 * Will use *SQL* to sore the data base in. This may be extra helpful because I am thinking about doing this for each state.
 * Will use *Tableau* share my findings, as well as try to set up a calculator for a basic mortgage and rental properties gain/losses.
 
-#### Conclusion::
+## Conclusion::
 The main goal is to anser the questions above so we can get a better idea quickly if we should start to look into buy the home.s in questions. This will not help with due deligance(grandfather clauses, inspections, etc) and will have more to research. But this will at least give us a final overview so we can see if teh home in question is worth spendig time on/buying.
 #### Next steps:
 *this will be completly once teh project is done.*
 
-#### Sources:
+## Sources:
 * https://rapidapi.com/blog/best-real-estate-apis/ - This site gave me top 7(thier words) APIs I could use for this project. 
 - Will use multiple, one for rental rates in a given time frame, and prices sold in a given time frame

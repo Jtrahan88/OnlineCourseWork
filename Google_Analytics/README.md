@@ -44,4 +44,4 @@ Reporting data that helps guide Bellabeat’s marketing strategy.
 
 * **How does it help you answer your question?** - By seeing how our consumers are using their smart devices we may be able to see some patterns/potential problems our consumers are having and try to solve them by providing a product or service. 
 
-* **Are there any problems with the data?** - Yes. There seems to be missing days or values. Missing days may just be a rest day, but days that have actives and data is missing need to be looked into.
+* **Are there any problems with the data?** - Yes. There seems to be missing days or values. Missing days may just be a rest day, but days that have actives and data is missing, we need to be looked into.

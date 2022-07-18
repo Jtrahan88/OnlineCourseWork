@@ -28,15 +28,15 @@ Reporting data that helps guide Bellabeat’s marketing strategy.
 * **How is the data organized?** - Tubular wide format. There are many files but a merged file was created. I will use this one and slice it as needed
 
 * **Are there issues with bias or credibility in this data? Does your data ROCCC?** - Yeas and no:
-1. **Reliable** - Yes. - Data is via Amazon Mechanical Turk between 03.12.2016-05.12.2016
-2. **Original** - Yes. - Each Consumer has their own personal Fitbit
-3. **Comprehensive** - Yes and No. - Data is pulled from real time events in consumer daily activities. There are some values that are marked as 0 will need to investigate more.  
-4. **Current** - No. - Data is from 2016. This data is out dated, but for learning purposes it is a great aspect to use in future job roles. 
-5. **Cited** - Yes:
-○ LICENSE - CC0: Public Domain.
-○ Collaborators - Möbius (Owner).
-○ SOURCES - https://zenodo.org/record/53894#.X9oeh3Uzaao
-○ COLLECTION METHODOLOGY - preprocessed.
+> 1. **Reliable** - Yes. - Data is via Amazon Mechanical Turk between 03.12.2016-05.12.2016
+> 2. **Original** - Yes. - Each Consumer has their own personal Fitbit
+> 3. **Comprehensive** - Yes and No. - Data is pulled from real time events in consumer daily activities. There are some values that are marked as 0 will need to investigate more.  
+> 4. **Current** - No. - Data is from 2016. This data is out dated, but for learning purposes it is a great aspect to use in future job roles. 
+> 5. **Cited** - Yes:
+> > * LICENSE - CC0: Public Domain.
+> > * Collaborators - Möbius (Owner).
+> > * SOURCES - https://zenodo.org/record/53894#.X9oeh3Uzaao
+> > * COLLECTION METHODOLOGY - preprocessed.
 
 * **How are you addressing licensing, privacy, security, and accessibility?** - I will give all sources to each data aspect I need, like above, Kaggle has dealt with majority of this in this data set.
 

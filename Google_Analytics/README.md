@@ -1,4 +1,6 @@
-# Overview and Steps of the Data Analyst process using the Google course teachings:
+# CapStone Project for the [**Google Data Analystics**](https://www.coursera.org/professional-certificates/google-data-analytics) course teachings.
+
+* This is an evolving document of my personal analasis. For learnign activies only, adn will continueto change in teh next several weeks.
 
 ## Goal: Use Smart device data to help the wellness companies make better marketing strategies. 
 

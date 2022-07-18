@@ -20,3 +20,19 @@
 Reporting data that helps guide Bellabeat’s marketing strategy.
 
 * **How will this data help your stakeholders make decisions?** - By understanding how our customer go through their day, their exercise, sleeping, eating habits. We can then set up marketing campaigns around the current trends, or over trend in our consumer habits to futher increase our market share.
+
+### Prepare:
+
+* **Where is your data located?**
+
+* **How is the data organized?**
+
+* **Are there issues with bias or credibility in this data? Does your data ROCCC?**
+
+* **How are you addressing licensing, privacy, security, and accessibility?**
+
+* **How did you verify the data’s integrity?**
+
+* **How does it help you answer your question?**
+
+* **Are there any problems with the data?**

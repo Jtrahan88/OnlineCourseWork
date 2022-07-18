@@ -25,12 +25,12 @@ Reporting data that helps guide Bellabeat’s marketing strategy.
 
 * **Where is our data located?** - Source:https://www.kaggle.com/datasets/arashnic/fitbit
 
-* **How is the data organized?** - Tublar wide format. There ar many files but a merged file was created. I will use this one and slice it as needed
+* **How is the data organized?** - Tubular wide format. There are many files but a merged file was created. I will use this one and slice it as needed
 
 * **Are there issues with bias or credibility in this data? Does your data ROCCC?** - Yeas and no:
 1. **Reliable** - Yes. - Data is via Amazon Mechanical Turk between 03.12.2016-05.12.2016
-2. **Original** - Yes. - Each Consumer has their own personal fitbit
-3. **Comprehensive** - Yes and No. - Data is pulled from real time events in consumer daily activities. There are some values taht are marked as 0 will need to investigate more.  
+2. **Original** - Yes. - Each Consumer has their own personal Fitbit
+3. **Comprehensive** - Yes and No. - Data is pulled from real time events in consumer daily activities. There are some values that are marked as 0 will need to investigate more.  
 4. **Current** - No. - Data is from 2016. This data is out dated, but for learning purposes it is a great aspect to use in future job roles. 
 5. **Cited** - Yes:
 ○ LICENSE - CC0: Public Domain.
@@ -38,11 +38,10 @@ Reporting data that helps guide Bellabeat’s marketing strategy.
 ○ SOURCES - https://zenodo.org/record/53894#.X9oeh3Uzaao
 ○ COLLECTION METHODOLOGY - preprocessed.
 
-* **How are you addressing licensing, privacy, security, and accessibility?** - I will give all sources to each data aspect I need, like above, Kaggle has delt with marjority of this in this data set.
+* **How are you addressing licensing, privacy, security, and accessibility?** - I will give all sources to each data aspect I need, like above, Kaggle has dealt with majority of this in this data set.
 
-* **How did you verify the data’s integrity?** - According to teh Data set teh data is updated annually. Looking futher into this it may be updated annualy from teh orginal source. Yet, for the kaggle version we will use, it is only from 2016.
+* **How did you verify the data’s integrity?** - According to the Data set the data is updated annually. Looking further into this it may be updated annually from the original source. Yet, for the kaggle version we will use, it is only from 2016.
 
-* **How does it help you answer your question?** - By seeing how our consumers are using thier smart devices we may be able to see some paterns/potential problems our consumers are having and try to solve them by providing a product or service. 
+* **How does it help you answer your question?** - By seeing how our consumers are using their smart devices we may be able to see some patterns/potential problems our consumers are having and try to solve them by providing a product or service. 
 
-* **Are there any problems with the data?** - Yes. There seems to be missing days or values. Missing days may just be a rest day, but days that have activies and data is missing need to be looked into. 
-
+* **Are there any problems with the data?** - Yes. There seems to be missing days or values. Missing days may just be a rest day, but days that have actives and data is missing need to be looked into.

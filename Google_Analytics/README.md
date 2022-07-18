@@ -72,7 +72,7 @@ Reporting data that helps guide Bellabeat’s marketing strategy.
 > View data in python and run the .info(), and .describe() function in python. This will help us get a quick over view of what we have.
 
 * **How can you verify that your data is clean and ready to analyze?** - 
-> We have done this in early steps by looking at the data types, and see what data we have. WE can also look at the number of participates by using the nunique() method in pandas for our ID column. By doing so we can see that not ever data set has enough data to get a good analysis for. Which brings us back to the 4 data sets I chose.  
+> We have done this in early steps by looking at the data types, and see what data we have. WE can also look at the number of participates by using the nunique() method in pandas for our ID column. By doing so we can see that not ever data set has enough data to get a good analysis for. Which brings us back to the 4 data sets I chose. I did this manually in excel by removing duplicates, but may add the python step by step way to this file later.
 
 * **Have you documented your cleaning process so you can review and share those results?** - This is actively being done for every step I take.
 

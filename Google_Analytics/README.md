@@ -23,13 +23,13 @@
 Reporting data that helps guide Bellabeat’s marketing strategy.
 
 * **How will this data help your stakeholders make decisions?** - 
-> By understanding how our customer go through their day, their exercise, sleeping, eating habits. We can then set up marketing campaigns around the current trends, or over trend in our consumer habits to futher increase our market share.
+> * By understanding how our customer go through their day, their exercise, sleeping, eating habits. We can then set up marketing campaigns around the current trends, or over trend in our consumer habits to futher increase our market share.
 
 ### Prepare:
 
 * **Where is our data located?** - Source:https://www.kaggle.com/datasets/arashnic/fitbit
-* > We could use the  **dailyActivity_merged** excel document only. It has all teh indivudal data to gether for us.
-* > Instead I will bring in several data sets to look at first, adn if needed merge together. They are as follows:
+* > I will use the  **dailyActivity_merged** excel document only. It has all teh indivudal data to gether for us.
+* > If this was not done for us I would bring in several data sets to look at first, and merge together as needed. They are as follows beacsue I will beoing my analysis on teh day and not by minute or hour:
 > > 1. dailyCalories_merged
 > > 2. dailyIntensities_merged
 > > 3. dailySteps_merged
@@ -73,14 +73,15 @@ Reporting data that helps guide Bellabeat’s marketing strategy.
 > 3. SQL - To practice and show additional techniques. 
 >  
 * **Have you ensured your data’s integrity?** -
-> By looking at each data set in excel I noticed that some data had information for days but in some areas there was none. 
-> Excel is a slow way of looking at data, so I also looked at the data in python. We will need to merge all the files, I noticed that the date columns has a data type of an object and change this so a date/time data type.
-> > I am choosing date/time over just data because this data was pulled to the minute from user's smart devices. 
+> * By looking at each data set in excel I noticed that some data had information for days but in some areas there was none. 
+> * Excel is a slow way of looking at data, so I also looked at the data in python. We will need to merge all the files, I noticed that the date columns has a data type of an object and change this so a date/time data type.
+> > * I am choosing date/time over just data because this data was pulled to the minute from user's smart devices. 
 * **What steps have you taken to ensure that your data is clean?** - 
-> View data in python and run the .info(), and .describe() function in python. This will help us get a quick over view of what we have.
+> * View data in python and run the .info(), and .describe() function in python. This will help us get a quick over view of what we have.
 
 * **How can you verify that your data is clean and ready to analyze?** - 
-> We have done this in early steps by looking at the data types, and see what data we have. We can also look at the number of participates by using the nunique() method in pandas for our ID column. By doing so we can see that not ever data set has enough data to get a good analysis for. Which brings us back to the 4 data sets I chose. I did this manually in excel by removing duplicates, but may add the python step by step way to this file later.
+> * We have done this in early steps by looking at the data types, and see what data we have. We can also look at the number of participates by using the nunique() method in pandas for our ID column. By doing so we can see that not ever data set has enough data to get a good analysis for. Which brings us back to the 4 data sets I chose. I did this manually in excel by removing duplicates, but may add the python step by step way to this file later.
+> * Can not find out if the distance is in mile or kilometers.
 
 * **Have you documented your cleaning process so you can review and share those results?** -
 > This is actively being done for every step I take.

@@ -39,6 +39,9 @@ Reporting data that helps guide Bellabeat’s marketing strategy.
 > > * Collaborators - Möbius (Owner).
 > > * SOURCES - https://zenodo.org/record/53894#.X9oeh3Uzaao
 > > * COLLECTION METHODOLOGY - preprocessed.
+> > * Acknowlegement
+> > Furberg, Robert; Brinton, Julia; Keating, Michael ; Ortiz, Alexa
+> > https://zenodo.org/record/53894#.YMoUpnVKiP9
 
 * **How are you addressing licensing, privacy, security, and accessibility?** - I will give all sources to each data aspect I need, like above, Kaggle has dealt with majority of this in this data set.
 

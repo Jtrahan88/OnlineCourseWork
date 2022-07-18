@@ -58,7 +58,7 @@ Reporting data that helps guide Bellabeat’s marketing strategy.
 * **Are there any problems with the data?** - Yes. There seems to be missing days or values. Missing days may just be a rest day, but days that have actives and data is missing, we need to be looked into.
 
 
-### Prepare
+### Process
 * **What tools are you choosing and why?**
 > 1. Excel/Google Sheets - This is very small data so excel can help us out. Can get a quick overview of the data, and make small changes
 > 2. Python - For now help clean the data, but will want to use this to mine the data using an API if there is one available. Also to show other that if we had a BIG data, I can use python to work through the road blocks.

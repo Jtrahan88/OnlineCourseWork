@@ -2,10 +2,10 @@
 
 * This is an evolving document of my personal analysis. For learning actives only, and will continue to change in the next several weeks.
 
-## Goal: Use Smart device data to help the wellness companies make better marketing strategies. 
+## Goal: Use Smart device data to help the wellness companies(BellaBeat) make better marketing strategies. 
 
 ### ASK:
-* **What topic are you exploring?** - Bella beat Data set (fitness tracker using smart device data)
+* **What topic are you exploring?** - BellaBeat Data set (fitness tracker using smart device data)
 
 * **What is the problem you are trying to solve?** - Analyzing smart device data to gain insight into how consumers are using their smart devices for future marketing strategies.
 > 1. What are some trends in smart device usage?
@@ -16,22 +16,26 @@
 
 
 * **Who is your audience for this analysis and how does this affect your analysis process and presentation?** - 
-○ **Urška Sršen**: Bellabeat’s cofounder and Chief Creative Officer
-○ **Sando Mur**: Mathematician and Bellabeat’s cofounder; key member of the Bellabeat executive team
-○ **Bellabeat marketing analytics team**: A team of data analysts responsible for collecting, analyzing, and
+#### Stakeholders
+> ○ **Urška Sršen**: Bellabeat’s cofounder and Chief Creative Officer
+> ○ **Sando Mur**: Mathematician and Bellabeat’s cofounder; key member of the Bellabeat executive team
+> ○ **Bellabeat marketing analytics team**: A team of data analysts responsible for collecting, analyzing, and
 Reporting data that helps guide Bellabeat’s marketing strategy.
 
-* **How will this data help your stakeholders make decisions?** - By understanding how our customer go through their day, their exercise, sleeping, eating habits. We can then set up marketing campaigns around the current trends, or over trend in our consumer habits to futher increase our market share.
+* **How will this data help your stakeholders make decisions?** - 
+> By understanding how our customer go through their day, their exercise, sleeping, eating habits. We can then set up marketing campaigns around the current trends, or over trend in our consumer habits to futher increase our market share.
 
 ### Prepare:
 
 * **Where is our data located?** - Source:https://www.kaggle.com/datasets/arashnic/fitbit
 * > We could use the  **dailyActivity_merged** excel document only. It has all teh indivudal data to gether for us.
-* > Instead I will bring in four data sets to merge together myself for practice. They are as follows:
+* > Instead I will bring in several data sets to look at first, adn if needed merge together. They are as follows:
 > > 1. dailyCalories_merged
 > > 2. dailyIntensities_merged
 > > 3. dailySteps_merged
 > > 4. sleepDay_merged
+> > 5. sleepDay_merged
+> > 6. weightLogInfo_merged
 
 * **How is the data organized?** - Tubular wide format. There are many files but a merged file was created. I will use this one and slice it as needed
 
@@ -51,11 +55,15 @@ Reporting data that helps guide Bellabeat’s marketing strategy.
 
 * **How are you addressing licensing, privacy, security, and accessibility?** - I will give all sources to each data aspect I need, like above, Kaggle has dealt with majority of this in this data set.
 
-* **How did you verify the data’s integrity?** - According to the Data set the data is updated annually. We will need to look at our data types, adn see if any cells need to processed before we start analysing.  Looking further into this it may be updated annually from the original source. Yet, for the kaggle version we will use, it is only from 2016.
+* **How did you verify the data’s integrity?** -
+> According to the Data set the data is updated annually. We will need to look at our data types, and see if any cells need to be processed before we start analysing. Yet, for the kaggle version we will use, it is only from 2016.
 
-* **How does it help you answer your question?** - By seeing how our consumers are using their smart devices we may be able to see some patterns/potential problems our consumers are having and try to solve them by providing a product or service. 
 
-* **Are there any problems with the data?** - Yes. There seems to be missing days or values. Missing days may just be a rest day, but days that have actives and data is missing, we need to be looked into.
+* **How does it help you answer your question?** -
+> By seeing how our consumers are using their smart devices we may be able to see some patterns/potential problems our consumers are having and try to solve them by providing a product or service. 
+
+* **Are there any problems with the data?** - 
+> Yes. There seems to be missing days or values. Missing days may just be a rest day, but days that have actives and data is missing, we need to be looked into.
 
 
 ### Process
@@ -72,7 +80,8 @@ Reporting data that helps guide Bellabeat’s marketing strategy.
 > View data in python and run the .info(), and .describe() function in python. This will help us get a quick over view of what we have.
 
 * **How can you verify that your data is clean and ready to analyze?** - 
-> We have done this in early steps by looking at the data types, and see what data we have. WE can also look at the number of participates by using the nunique() method in pandas for our ID column. By doing so we can see that not ever data set has enough data to get a good analysis for. Which brings us back to the 4 data sets I chose. I did this manually in excel by removing duplicates, but may add the python step by step way to this file later.
+> We have done this in early steps by looking at the data types, and see what data we have. We can also look at the number of participates by using the nunique() method in pandas for our ID column. By doing so we can see that not ever data set has enough data to get a good analysis for. Which brings us back to the 4 data sets I chose. I did this manually in excel by removing duplicates, but may add the python step by step way to this file later.
 
-* **Have you documented your cleaning process so you can review and share those results?** - This is actively being done for every step I take.
+* **Have you documented your cleaning process so you can review and share those results?** -
+> This is actively being done for every step I take.
 

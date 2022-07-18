@@ -86,3 +86,18 @@ Reporting data that helps guide Bellabeat’s marketing strategy.
 * **Have you documented your cleaning process so you can review and share those results?** -
 > This is actively being done for every step I take.
 
+### Analyze
+* **How should you organize your data to perform analysis on it?**
+> * Using seaborn I would use the pairplot() function to see if any columns have a relationship as an overview. From there I can see how I would like to proceed next.
+
+* **Has your data been properly formatted?**
+> * Yes teh prepocessing of teh kaggle has been formated correctly. We did drop one column due to lack of data. 
+
+* **What surprises did you discover in the data?**
+
+
+* **What trends or relationships have you found in the data?**
+
+
+* **How do these insights answer your question or solve the problem?**
+

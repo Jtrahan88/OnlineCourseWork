@@ -34,8 +34,9 @@ Reporting data that helps guide Bellabeat’s marketing strategy.
 > > 2. dailyIntensities_merged
 > > 3. dailySteps_merged
 > > 4. sleepDay_merged
-> > 5. sleepDay_merged
-> > 6. weightLogInfo_merged
+> > 5. weightLogInfo_merged
+
+> > * Edit: After further reveiw the **dailyActivity_merged** file is missing data from **sleepDay_merged** and **weightLogInfo_merged** files. We will merge this before we start our analysis as well. 
 
 * **How is the data organized?** - Tubular wide format. There are many files but a merged file was created. I will use this one and slice it as needed
 
@@ -101,7 +102,6 @@ Reporting data that helps guide Bellabeat’s marketing strategy.
 > * Box Plot
 > > * This shows us that this data set has majority of teh consumer likely a light intesity thoruhg much of the week. 
 > > * High intesnsity is teh next highest and stays pretty consistance except on thursday, friday, and satuday goes back up
-> > * Moderate intensity is our lowest and  only really goes up on Sunday, Tuesday, Satuday, and Sunday. 
 
 * **What trends or relationships have you found in the data?**
 

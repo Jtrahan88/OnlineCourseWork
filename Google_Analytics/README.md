@@ -36,7 +36,6 @@ Reporting data that helps guide Bellabeat’s marketing strategy.
 > > 4. sleepDay_merged
 > > 5. weightLogInfo_merged
 
-> > * Edit: After further reveiw the **dailyActivity_merged** file is missing data from **sleepDay_merged** and **weightLogInfo_merged** files. We will merge this before we start our analysis as well. 
 
 * **How is the data organized?** - Tubular wide format. There are many files but a merged file was created. I will use this one and slice it as needed
 

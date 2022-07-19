@@ -94,7 +94,14 @@ Reporting data that helps guide Bellabeat’s marketing strategy.
 > * Yes teh prepocessing of teh kaggle has been formated correctly. We did drop one column due to lack of data. 
 
 * **What surprises did you discover in the data?**
-
+> * jointplot
+> > * The More steps we take the more calories we burn. There are a few outliers, this I would assume to be beacuse the intensity rates.
+> * lineplot
+> > * This comparison shows me if we can keep a light intensity we can have a steady burn of calories. Also, this also show me some habits of consumers who may have start low intensity and finish high intensity and vice versa.
+> * Box Plot
+> > * This shows us that this data set has majority of teh consumer likely a light intesity thoruhg much of the week. 
+> > * High intesnsity is teh next highest and stays pretty consistance except on thursday, friday, and satuday goes back up
+> > * Moderate intensity is our lowest and  only really goes up on Sunday, Tuesday, Satuday, and Sunday. 
 
 * **What trends or relationships have you found in the data?**
 

@@ -36,6 +36,7 @@ Reporting data that helps guide Bellabeat’s marketing strategy.
 > > 4. sleepDay_merged
 > > 5. weightLogInfo_merged
 
+> > * Edit: After further reveiw the **dailyActivity_merged** file is missing data from **sleepDay_merged** We will merge this before we start our analysis as well. 
 
 * **How is the data organized?** - Tubular wide format. There are many files but a merged file was created. I will use this one and slice it as needed
 
@@ -101,9 +102,66 @@ Reporting data that helps guide Bellabeat’s marketing strategy.
 > * Box Plot
 > > * This shows us that this data set has majority of teh consumer likely a light intesity thoruhg much of the week. 
 > > * High intesnsity is teh next highest and stays pretty consistance except on thursday, friday, and satuday goes back up
+> *Barplot(Sedentary Total sleep time vs Day of Week)
+> > * Sunday surpisingly is the day people get teh least amount of sleep in this data set
+> > * You can see a trend on Wed. Thurs.,Fri. that less sleep occurs, then satuday is the caught up day. This happend again in the same way for Sun. and Mon. 
+> *Joint Plot(# sleep time vs SedentaryMinutes)
+> > *There is a trend of teh more Sedentary minue occurring, less sleep occurs
+> > *Looks like a few outliers,which could be days that people forgot to wear/charge their device. 
+> * Joint Plot(# sleep time vs SedentaryMinutes seperated by intesity type)
+> > * Adding in the intensity type from one of our above charts we can not make out which intensity is better for sleep
+> > * More data is needed
 
 * **What trends or relationships have you found in the data?**
-
+> > * Steps taken and calories burned
+> > * Intensity by Distance vs Calories Burned
+> > * Intensity by distance vs by day
+> > * Sedentary Activity based on minutes vs day of week
 
 * **How do these insights answer your question or solve the problem?**
+> * What are some trends in smart device usage?
+> > * This was answered above.
 
+How could these trends apply to Bellabeat customers?
+> * We know the more active our customer are the more calories they burn. The mosty active days of teh week seem to be sunday followed but friday adn Tuesdays
+> * Light activily is the most used type of activity. There are low and high calories burn rates and we possible dive deeper into the data and see how we highligh this aspect. What excersies burn teh most calories, what burns the least with that type of activity.
+
+> * How could these trends help influence Bellabeat marketing strategy?
+> > * We could use teh trend to help improve sleep, workouts, calory burn rates etc..
+
+### Share:
+> * This will be mostly apart of the Jupyter notebook.
+> * What story does your data tell?
+> > * We have trends for steps taken, calories burned, intensity rates, adn sleep/resting times
+
+> * How do your findings relate to your original question?
+> > * By seeing teh daily trends of our customer we can not only help imporve their daily live but also help in aquiring new customers by word of mouth from happy customers. As well use those same improves in our marketing compaign. 
+
+> * Who is your audience? What is the best way to communicate with them?
+> > * 1. Indivudals who current work out, play sports, have regualar out door activies woudl be our biggest market.
+> > * 2. Those who want to get back into shape.
+> > * 3. Those who work at a desk all day, and may need reminders every hour or set to move around/light work outs.
+> > * Best way to comunicate is through teh BellaBeat app.
+
+> * Can data visualization help you share your findings?
+> > * Absoulty. Loking at raw number can take a long long for us to mentally process. 
+
+> * Is your presentation accessible to your audience?
+> > * Yes. It will be aviable on [Kaggle]() and [GitHub]()
+
+### Act:
+> * What is your final conclusion based on your analysis?
+> > * I would persoanlly like more data, but from what we have there are quite a few trend to build off of. Based on tehose trends we can market our app in ways that teh current trend can be enhance or provide additoanl benefits
+
+> * How can you apply your insights?
+> > * I used  multiple graphs and charts to get a better understadn of each trend. 
+
+> * Are there any next steps you or your stakeholders can take based on your findings?
+> > * Yes. App add on/improvements.
+> > * allow more data to be collected or minned from simlar sources.
+
+> * Is there additional data you could use to expand on your findings?
+> > *  Yes, such as occupation, age, gender, events/activties that we are  apart of.
+
+* How can you feature your case study in your portfolio?
+> > * I will use a few ways. Jupyter notebook, kaggle, adn git hub

@@ -22,31 +22,31 @@
 
 
 # Bash(using SQL syntax) [Building a Mario Database](https://www.freecodecamp.org/learn/relational-database/learn-relational-databases-by-building-a-mario-database/build-a-mario-database)
-psql --username=<youre name> dbname=postgres - Connect to a PostgresSQL data base
-CREATE DATABASE <name> - This will creat a database from teh terminal into postgresSQL
-\c <databse name> - This will connect to the date base we would like to enter. 
-CREATE TABLE <name>();  0 This will create a table in the current data base
-\d 0 this will check the **tables** inside the database
-\d <table_name> - will show information about the specific table
-ALTER Table <table_name> ADD COLUMN <column_name> DATATYPE - This will alter teh table to add a column. We will need to label the datatype the column is.
-ALTER TABLE <table_name> DROP COLUMN <column_name> -  will drop a columns from a table
-VARCHAR(#) - this is a string data type that requires a number in between the () to put a limit on how many chars can be added. 
-ALTER TABLE <table_name> RENAME COLUMN <column_name> TO <new_name>; - Change name of a column
-INSERT INTO table_name(column_1, column_2) VALUES(value1, value2); - Add row values to teh database
-SELECT columns FROM table_name; - selects a column in the table
-DELETE FROM table_name WHERE condition; - delete the record you entered with a condition
-DROP TABLE table_name; - Drops a table from teh database
-ALTER DATABASE database_name RENAME TO new_database_name; - rename a data base
-\l - list database, tables, columns, etc.
-DROP DATABASE <Database_name>; - Drops an entire database.
+* psql --username=<youre name> dbname=postgres - Connect to a PostgresSQL data base
+* CREATE DATABASE <name> - This will creat a database from teh terminal into postgresSQL
+* \c <databse name> - This will connect to the date base we would like to enter. 
+* CREATE TABLE <name>();  0 This will create a table in the current data base
+* \d 0 this will check the **tables** inside the database
+* \d <table_name> - will show information about the specific table
+* ALTER Table <table_name> ADD COLUMN <column_name> DATATYPE - This will alter teh table to add a column. We will need to label the datatype the column is.
+* ALTER TABLE <table_name> DROP COLUMN <column_name> -  will drop a columns from a table
+* VARCHAR(#) - this is a string data type that requires a number in between the () to put a limit on how many chars can be added. 
+* ALTER TABLE <table_name> RENAME COLUMN <column_name> TO <new_name>; - Change name of a column
+* INSERT INTO table_name(column_1, column_2) VALUES(value1, value2); - Add row values to teh database
+* SELECT columns FROM table_name; - selects a column in the table
+* DELETE FROM table_name WHERE condition; - delete the record you entered with a condition
+* DROP TABLE table_name; - Drops a table from teh database
+* ALTER DATABASE database_name RENAME TO new_database_name; - rename a data base
+* \l - list database, tables, columns, etc.
+* DROP DATABASE <Database_name>; - Drops an entire database.
   
-Multiple row entries at once: -
+* Multiple row entries at once: -
 >> INSERT INTO characters(name, homeland, favorite_color)
 >> VALUES('Mario', 'Mushroom Kingdom', 'Red'),
 >> ('Luigi', 'Mushroom Kingdom', 'Green'),
 >> ('Peach', 'Mushroom Kingdom', 'Pink');
   
-UPDATE table_name SET column_name=new_value WHERE condition; - updates a row value.
-SELECT columns FROM table_name ORDER BY column_name; - order columns.
-ALTER TABLE table_name ADD PRIMARY KEY(column_name) - Add a primary key to a table
-ALTER TABLE table_name DROP CONSTRAINT constraint_name; - Drop a constraint like a primary key.
+* UPDATE table_name SET column_name=new_value WHERE condition; - updates a row value.
+* SELECT columns FROM table_name ORDER BY column_name; - order columns.
+* ALTER TABLE table_name ADD PRIMARY KEY(column_name) - Add a primary key to a table
+* ALTER TABLE table_name DROP CONSTRAINT constraint_name; - Drop a constraint like a primary key.

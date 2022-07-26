@@ -41,10 +41,10 @@
 * DROP DATABASE <Database_name>; - Drops an entire database.
   
 * Multiple row entries at once: -
->> INSERT INTO characters(name, homeland, favorite_color)
->> VALUES('Mario', 'Mushroom Kingdom', 'Red'),
->> ('Luigi', 'Mushroom Kingdom', 'Green'),
->> ('Peach', 'Mushroom Kingdom', 'Pink');
+>> * INSERT INTO characters(name, homeland, favorite_color)
+>> * VALUES('Mario', 'Mushroom Kingdom', 'Red'),
+>> * ('Luigi', 'Mushroom Kingdom', 'Green'),
+>> * ('Peach', 'Mushroom Kingdom', 'Pink');
   
 * UPDATE table_name SET column_name=new_value WHERE condition; - updates a row value.
 * SELECT columns FROM table_name ORDER BY column_name; - order columns.

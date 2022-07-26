@@ -2,7 +2,8 @@
 
 ## Terms/commands to know for each database aspec:
 
-# Bash (power shell) [Boiler Plate Projecct](https://www.freecodecamp.org/learn/relational-database/learn-bash-by-building-a-boilerplate/build-a-boilerplate)
+# Bash (power shell) [Boiler Plate Projecct](https://www.freecodecamp.org/learn/relational-database/learn-bash-by-building-a-boilerplate/build-a-boilerplate) 
+#### Bug in teh system waiting for a response before I can complete. 
 * --help - Most commands have a --help flag to show what the command can do. example ls --help
 * cd - change directory
 * cd ../.. - For each .. and a / we go back one folder
@@ -48,9 +49,6 @@
 * SELECT columns FROM table_name; - selects a column in the table
 * UPDATE table_name SET column_name=new_value WHERE condition; - updates a row value.
 * VARCHAR(#) - this is a string data type that requires a number in between the () to put a limit on how many chars can be added.
-
   
-
-  
-
-
+# SQL Project(WIP)
+#### Bug in teh system waiting for a response before I can complete.

@@ -16,5 +16,5 @@ My interests and real life aspects I wanted to know more about:
 
 ## Relational_Database_SQL+
 #### Purpose:
-* Work on to show others my SQL techniques, gain improvements, and work on SASS and SAP
+* Work on to show others my SQL techniques, gain improvements, and work on SASS
 * Also went over BASH(powersell) command to connect to SQL and create, modify, and clean databases in SQL from the command board. 

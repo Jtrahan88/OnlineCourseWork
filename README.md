@@ -12,9 +12,9 @@ My interests and real life aspects I wanted to know more about:
 ## Crypto Gaming
 #### Purpose:
 * I got into NFTs for the video games. Would like to run some analysts on this new field. 
-* Owning the digital assets we collect is an exciting field to me
+* Owning the digital assets we collect is an exciting field to me.
 
 ## Relational_Database_SQL+
 #### Purpose:
-* Work on show others my SQL techniques, gain improvements, and work on SASS and SAP
+* Work on to show others my SQL techniques, gain improvements, and work on SASS and SAP
 * Also went over BASH(powersell) command to connect to SQL and create, modify, and clean databases in SQL from the command board. 

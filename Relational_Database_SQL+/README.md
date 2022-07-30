@@ -90,7 +90,7 @@
 >> * _	| Represents a single character	| h_t finds hot, hat, and hit
 >> * []	| Represents any single character within the brackets	| h[oa]t finds hot and hat, but not hit
 >> * ^	| Represents any character not in the brackets	| h[^oa]t finds hit, but not hot and hat
->> * --	| Represents any single character within the specified range	| c[a-b]t finds cat and cbt  
+>> * -	| Represents any single character within the specified range	| c[a-b]t finds cat and cbt  
   
   
 # SQL Project(WIP)

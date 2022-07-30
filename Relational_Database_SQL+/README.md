@@ -137,19 +137,26 @@ If there is no ELSE part and no conditions are true, it returns NULL.
   >> * WHERE condition;
 * SELECT TOP(Special Case not used in MySQL) - clause is used to specify the number of records to return. Is useful on large tables with thousands of records. Returning a large number of records can impact performance.
 * Stored Procedure - A stored procedure is a prepared SQL code that you can save, so the code can be reused over and over again. So if you have an SQL query that you write over and over again, save it as a stored procedure, and then just call it to execute it. You can also pass parameters to a stored procedure, so that the stored procedure can act based on the parameter value(s) that is passed. Example:
- >> >> * CREATE PROCEDURE procedure_name
+ >> * CREATE PROCEDURE procedure_name
  >>  >> * AS
  >>  >> * sql_statement
  >>  >> * GO;
  >> * Execute a Stored Procedure:
  >>  >> * EXEC procedure_name;
- >> >> * Stored Procedure With One Parameter - statement creates a stored procedure that selects Customers from a particular City from the "Customers" table:
+ >> * Stored Procedure With One Parameter - statement creates a stored procedure that selects Customers from a particular City from the "Customers" table:
  >>  >> * CREATE PROCEDURE SelectAllCustomers @City nvarchar(30)
 >>  >> AS
 >> >> * SELECT * FROM Customers WHERE City = @City
 >>  >> * GO;
->> >> *  Execute the stored procedure above as follows:
+>> *  Execute the stored procedure above as follows:
  >> >> * EXEC SelectAllCustomers @City = 'London';
+ >> * Stored Procedure With Multiple Parameters - Setting up multiple parameters is very easy. Just list each parameter and the data type separated by a comma as shown below. The following SQL statement creates a stored procedure that selects Customers from a particular City with a particular PostalCode from the "Customers" table:
+>>  >> * CREATE PROCEDURE SelectAllCustomers @City nvarchar(30), @PostalCode nvarchar(10)
+>>  >> * AS
+>>  >> * SELECT * FROM Customers WHERE City = @City AND PostalCode = @PostalCode
+>>  >> * GO;
+>> * Execute the stored procedure above as follows:
+>>  >> * EXEC SelectAllCustomers @City = 'London', @PostalCode = 'WA1 1DP';
 * SUM() - function returns the total sum of a numeric column. 
 * TRUNCATE TABLE - command deletes the data inside a table, but not the table itself
 * UNION operator is used to combine the result-set of two or more SELECT statements.

@@ -1,4 +1,4 @@
-# Will build multiple Database to improve my SQL skills.
+# Will build multiple Databases to improve my SQL skills.
 
 # Using SQL in Your Web Site
 #### To build a web site that shows data from a database, you will need:
@@ -46,23 +46,44 @@
 * ALTER TABLE <table_name> RENAME COLUMN <column_name> TO <new_name>; - Change name of a column
 * ALTER TABLE table_name ADD PRIMARY KEY(column_name) - Add a primary key to a table
 * ALTER TABLE table_name DROP CONSTRAINT constraint_name; - Drop a constraint like a primary key.
+* AVG() - function returns the average value of a numeric column. 
 * CREATE DATABASE - This will creat a database from teh terminal into postgresSQL
 * CREATE TABLE (); 0 This will create a table in the current data base
-* DELETE FROM table_name WHERE condition; - delete the record you entered with a condition
+* COUNT() - function returns the number of rows that matches a specified criterion.
+* DELETE FROM table_name WHERE condition; - statement is used to delete existing records in a table. (delete the record you entered with a condition)
+* DISTINCT - statement is used to return only distinct (different) values.
 * DROP DATABASE <Database_name>; - Drops an entire database.
 * DROP TABLE table_name; - Drops a table from teh database
-* INSERT INTO table_name(column_1, column_2) VALUES(value1, value2); - Add row values to teh database
+* INSERT INTO table_name(column_1, column_2) VALUES(value1, value2); - statement is used to insert new records in a table.(Add row values to the database table)
+* LIKE - operator is used in a WHERE clause to search for a specified pattern in a column.
+>> * There are two wildcards often used in conjunction with the LIKE operator:
+>> >> * The percent sign (%) represents zero, one, or multiple characters
+>> >> * The underscore sign (_) represents one, single character
+* MAX() - function returns the largest value of the selected column. 
+* MIN() - function returns the smallest value of the selected column.
 * Multiple row entries at once: -
 >> * INSERT INTO characters(name, homeland, favorite_color)
 >> * VALUES('Mario', 'Mushroom Kingdom', 'Red'),
 >> * ('Luigi', 'Mushroom Kingdom', 'Green'),
 >> * ('Peach', 'Mushroom Kingdom', 'Pink');
+* NULL Value - is a field with no value. 
+* Operators (AND, OR and NOT):
+>> * The WHERE clause can be combined with AND, OR, and NOT operators.
+>> * The AND and OR operators are used to filter records based on more than one condition:
+>> * The AND operator displays a record if all the conditions separated by AND are TRUE.
+>> * The OR operator displays a record if any of the conditions separated by OR is TRUE.
+>> * The NOT operator displays a record if the condition(s) is NOT TRUE. 
+* ORDER BY - keyword is used to sort the result-set in ascending or descending order. sorts the records in ascending order by default. To sort the records in descending order, use the DESC keyword.
 * psql --username= dbname=postgres - Connect to a PostgresSQL data base
+* SELECT - statement is used to select data from a database
 * SELECT columns FROM table_name ORDER BY column_name; - order columns.
 * SELECT columns FROM table_name; - selects a column in the table
+* SELECT TOP(Special Case not used in MySQL) - clause is used to specify the number of records to return. Is useful on large tables with thousands of records. Returning a large number of records can impact performance.
+* SUM() - function returns the total sum of a numeric column. 
 * TRUNCATE TABLE - command deletes the data inside a table, but not the table itself
-* UPDATE table_name SET column_name=new_value WHERE condition; - updates a row value.
+* UPDATE table_name SET column_name=new_value WHERE condition; -statement is used to modify the existing records in a table. (Updates a row value based on a condition.)
 * VARCHAR(#) - this is a string data type that requires a number in between the () to put a limit on how many chars can be added.
-  
+* WHERE - clause is used to filter records.
+*   
 # SQL Project(WIP)
 #### Bug in teh system waiting for a response before I can complete.

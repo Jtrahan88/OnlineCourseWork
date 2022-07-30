@@ -1,9 +1,9 @@
 # Will build multiple Databases to improve my SQL skills.
 
-Sources:
-* [Free Code Campe](https://www.freecodecamp.org/learn/)
-* [W3schools]([https://www.freecodecamp.org/learn/](https://www.w3schools.com/sql/))
-* 
+# Sources:
+* [Free Code Camp](https://www.freecodecamp.org/learn/)
+* [W3schools](https://www.freecodecamp.org/learn/](https://www.w3schools.com/sql/)
+ 
 
 # Using SQL in Your Web Site
 #### To build a web site that shows data from a database, you will need:

@@ -40,6 +40,11 @@
 * \d <table_name> - will show information about the specific table
 * \d 0 this will check the tables inside the database
 * \l - list database, tables, columns, etc.
+* ALIASES - 
+>> * Used to give a table, or a column in a table, a temporary name.
+>> * Used to make column names more readable.
+>> * Only exists for the duration of that query.
+>> * Is created with the AS keyword.
 * ALTER DATABASE database_name RENAME TO new_database_name; - rename a data base
 * ALTER Table <table_name> ADD COLUMN <column_name> DATATYPE - This will alter teh table to add a column. We will need to label the datatype the column is.
 * ALTER TABLE <table_name> DROP COLUMN <column_name> - will drop a columns from a table
@@ -47,6 +52,7 @@
 * ALTER TABLE table_name ADD PRIMARY KEY(column_name) - Add a primary key to a table
 * ALTER TABLE table_name DROP CONSTRAINT constraint_name; - Drop a constraint like a primary key.
 * AVG() - function returns the average value of a numeric column. 
+* BETWEEN - operator selects values within a given range. The values can be numbers, text, or dates. Is inclusive: begin and end values are included.
 * CREATE DATABASE - This will creat a database from teh terminal into postgresSQL
 * CREATE TABLE (); 0 This will create a table in the current data base
 * COUNT() - function returns the number of rows that matches a specified criterion.
@@ -54,6 +60,20 @@
 * DISTINCT - statement is used to return only distinct (different) values.
 * DROP DATABASE <Database_name>; - Drops an entire database.
 * DROP TABLE table_name; - Drops a table from teh database
+* GROUP BY statement groups rows that have the same values into summary rows, like "find the number of customers in each country"
+  >> * Is often used with aggregate functions (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result-set by one or more columns.
+* IN - operator allows you to specify multiple values in a WHERE clause. Is a shorthand for multiple OR conditions.
+* JOIN - clause is used to combine rows from two or more tables, based on a related column between them.
+>> * INNER JOIN  - keyword selects records that have matching values in both tables.
+>> * LEFT JOIN  - keyword returns all records from the left table (table1), and the matching records from the right table (table2). The result is 0 records from the right side, if there is no match.
+>> * RIGHT JOIN  - keyword returns all records from the right table (table2), and the matching records from the left table (table1). The result is 0 records from the left side, if there is no match.
+>> * The FULL OUTER JOIN keyword returns all records when there is a match in left (table1) or right (table2) table records.
+>> >> * FULL OUTER JOIN and FULL JOIN are the same.
+>> * SELF JOIN is a regular join, but the table is joined with itself. Examples:
+>> >> * SELECT column_name(s)
+>> >> * FROM table1 T1, table1 T2
+>> >> * WHERE condition;
+  >> >> * T1 and T2 are different table aliases for the same table.
 * INSERT INTO table_name(column_1, column_2) VALUES(value1, value2); - statement is used to insert new records in a table.(Add row values to the database table)
 * LIKE - operator is used in a WHERE clause to search for a specified pattern in a column.
 >> * There are two wildcards often used in conjunction with the LIKE operator:
@@ -81,6 +101,11 @@
 * SELECT TOP(Special Case not used in MySQL) - clause is used to specify the number of records to return. Is useful on large tables with thousands of records. Returning a large number of records can impact performance.
 * SUM() - function returns the total sum of a numeric column. 
 * TRUNCATE TABLE - command deletes the data inside a table, but not the table itself
+* UNION operator is used to combine the result-set of two or more SELECT statements.
+>> * Every SELECT statement within UNION must have the same number of columns.
+>> * The columns must also have similar data types.
+>> * The columns in every SELECT statement must also be in the same order.
+* UNION ALL - The UNION operator selects only distinct values by default. To allow duplicate values, use UNION ALL.
 * UPDATE table_name SET column_name=new_value WHERE condition; -statement is used to modify the existing records in a table. (Updates a row value based on a condition.)
 * VARCHAR(#) - this is a string data type that requires a number in between the () to put a limit on how many chars can be added.
 * WHERE - clause is used to filter records.

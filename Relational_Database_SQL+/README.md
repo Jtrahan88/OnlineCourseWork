@@ -1,5 +1,10 @@
 # Will build multiple Databases to improve my SQL skills.
 
+Sources:
+* [Free Code Campe](https://www.freecodecamp.org/learn/)
+* [W3schools]([https://www.freecodecamp.org/learn/](https://www.w3schools.com/sql/))
+* 
+
 # Using SQL in Your Web Site
 #### To build a web site that shows data from a database, you will need:
 * An RDBMS database program (i.e. MS Access, SQL Server, MySQL)
@@ -45,23 +50,47 @@
 >> * Used to make column names more readable.
 >> * Only exists for the duration of that query.
 >> * Is created with the AS keyword.
+* ALL means that the condition will be true only if the operation is true for all values in the range. 
+>> * returns a boolean value as a result.
+>> * returns TRUE if ALL of the subquery values meet the condition.
+>> * is used with SELECT, WHERE and HAVING statements.
 * ALTER DATABASE database_name RENAME TO new_database_name; - rename a data base
 * ALTER Table <table_name> ADD COLUMN <column_name> DATATYPE - This will alter teh table to add a column. We will need to label the datatype the column is.
 * ALTER TABLE <table_name> DROP COLUMN <column_name> - will drop a columns from a table
 * ALTER TABLE <table_name> RENAME COLUMN <column_name> TO <new_name>; - Change name of a column
 * ALTER TABLE table_name ADD PRIMARY KEY(column_name) - Add a primary key to a table
 * ALTER TABLE table_name DROP CONSTRAINT constraint_name; - Drop a constraint like a primary key.
+* ANY - operator, means that the condition will be true if the operation is true for any of the values in the range.
+>> * returns a boolean value as a result.
+>> * returns TRUE if ANY of the subquery values meet the condition.
 * AVG() - function returns the average value of a numeric column. 
 * BETWEEN - operator selects values within a given range. The values can be numbers, text, or dates. Is inclusive: begin and end values are included.
+* CASE statement goes through conditions and returns a value when the first condition is met (like an if-then-else statement). So, once a condition is true, it will stop reading and return the result. If no conditions are true, it returns the value in the ELSE clause. Example:
+> * CASE
+> * WHEN condition1 THEN result1
+> * WHEN condition2 THEN result2
+> * WHEN conditionN THEN resultN
+> * ELSE result
+> * END;
+
+If there is no ELSE part and no conditions are true, it returns NULL.
 * CREATE DATABASE - This will creat a database from teh terminal into postgresSQL
 * CREATE TABLE (); 0 This will create a table in the current data base
 * COUNT() - function returns the number of rows that matches a specified criterion.
 * DELETE FROM table_name WHERE condition; - statement is used to delete existing records in a table. (delete the record you entered with a condition)
 * DISTINCT - statement is used to return only distinct (different) values.
 * DROP DATABASE <Database_name>; - Drops an entire database.
-* DROP TABLE table_name; - Drops a table from teh database
+* DROP TABLE table_name; - Drops a table from the database.
+* EXISTS - is used to test for the existence of any record in a subquery. Returns TRUE if the subquery returns one or more records.
 * GROUP BY statement groups rows that have the same values into summary rows, like "find the number of customers in each country"
   >> * Is often used with aggregate functions (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result-set by one or more columns.
+* HAVING - was added to SQL because the WHERE keyword cannot be used with aggregate functions. Example:
+>> * SELECT column_name(s)
+>> * FROM table_name
+>> * WHERE condition
+>> * GROUP BY column_name(s)
+>> * HAVING condition
+>> * ORDER BY column_name(s);
 * IN - operator allows you to specify multiple values in a WHERE clause. Is a shorthand for multiple OR conditions.
 * JOIN - clause is used to combine rows from two or more tables, based on a related column between them.
 >> * INNER JOIN  - keyword selects records that have matching values in both tables.
@@ -98,6 +127,11 @@
 * SELECT - statement is used to select data from a database
 * SELECT columns FROM table_name ORDER BY column_name; - order columns.
 * SELECT columns FROM table_name; - selects a column in the table
+* SELECT INTO  - statement copies data from one table into a new table. Requires that the data types in source and target tables match.
+  >> * SELECT column1, column2, column3, ...
+  >> * INTO newtable [IN externaldb]
+  >> * FROM oldtable
+  >> * WHERE condition;
 * SELECT TOP(Special Case not used in MySQL) - clause is used to specify the number of records to return. Is useful on large tables with thousands of records. Returning a large number of records can impact performance.
 * SUM() - function returns the total sum of a numeric column. 
 * TRUNCATE TABLE - command deletes the data inside a table, but not the table itself

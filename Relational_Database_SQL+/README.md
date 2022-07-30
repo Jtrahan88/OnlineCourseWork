@@ -2,7 +2,7 @@
 
 # Sources:
 * [Free Code Camp](https://www.freecodecamp.org/learn/)
-* [W3schools](https://www.freecodecamp.org/learn/](https://www.w3schools.com/sql/)
+* [W3schools](https://www.w3schools.com/sql/default.asp)
  
 
 # Using SQL in Your Web Site

@@ -115,7 +115,10 @@ If there is no ELSE part and no conditions are true, it returns NULL.
 >> * VALUES('Mario', 'Mushroom Kingdom', 'Red'),
 >> * ('Luigi', 'Mushroom Kingdom', 'Green'),
 >> * ('Peach', 'Mushroom Kingdom', 'Pink');
-* NULL Value - is a field with no value. 
+* NULL Value - is a field with no value.
+* NULL Functions - IFNULL(), ISNULL(), COALESCE(), and NVL() Functions
+>> * MySQL IFNULL()  - Return the specified value IF the expression is NULL, otherwise return the expression
+>> * MySQL COALESCE()  - Return the first non-null value in a list
 * Operators (AND, OR and NOT):
 >> * The WHERE clause can be combined with AND, OR, and NOT operators.
 >> * The AND and OR operators are used to filter records based on more than one condition:
@@ -133,6 +136,20 @@ If there is no ELSE part and no conditions are true, it returns NULL.
   >> * FROM oldtable
   >> * WHERE condition;
 * SELECT TOP(Special Case not used in MySQL) - clause is used to specify the number of records to return. Is useful on large tables with thousands of records. Returning a large number of records can impact performance.
+* Stored Procedure - A stored procedure is a prepared SQL code that you can save, so the code can be reused over and over again. So if you have an SQL query that you write over and over again, save it as a stored procedure, and then just call it to execute it. You can also pass parameters to a stored procedure, so that the stored procedure can act based on the parameter value(s) that is passed. Example:
+ >> * CREATE PROCEDURE procedure_name
+ >> >> * AS
+ >> >> * sql_statement
+ >> >> * GO;
+ >> * Execute a Stored Procedure:
+ >> >> * EXEC procedure_name;
+ >> * Stored Procedure With One Parameter - statement creates a stored procedure that selects Customers from a particular City from the "Customers" table:
+ >> >> CREATE PROCEDURE SelectAllCustomers @City nvarchar(30)
+>> >> AS
+>> >> SELECT * FROM Customers WHERE City = @City
+>> >> GO;
+>> *  Execute the stored procedure above as follows:
+ >> >> *EXEC SelectAllCustomers @City = 'London';
 * SUM() - function returns the total sum of a numeric column. 
 * TRUNCATE TABLE - command deletes the data inside a table, but not the table itself
 * UNION operator is used to combine the result-set of two or more SELECT statements.

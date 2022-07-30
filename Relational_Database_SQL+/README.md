@@ -39,7 +39,6 @@
 * rmdir - remove directory
 * touch <filename> - creates a new file in a directory
 
-
 # Bash(using SQL syntax) [Building a Mario Database](https://www.freecodecamp.org/learn/relational-database/learn-relational-databases-by-building-a-mario-database/build-a-mario-database)
 * \c - This will connect to the date base we would like to enter.
 * \d <table_name> - will show information about the specific table
@@ -184,7 +183,6 @@ If there is no ELSE part and no conditions are true, it returns NULL.
 >> * WHERE CustomerName LIKE '_r%'	| Finds any values that have "r" in the second position
 >> * WHERE CustomerName LIKE 'a__%'	| Finds any values that starts with "a" and are at least 3 characters in length
 >> * WHERE ContactName LIKE 'a%o'	| Finds any values that starts with "a" and ends with "o"
-  
-  
+
 # SQL Project(WIP)
 #### Bug in teh system waiting for a response before I can complete.

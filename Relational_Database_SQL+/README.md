@@ -1,5 +1,18 @@
 # Will build multiple Database to improve my SQL skills.
 
+# Using SQL in Your Web Site
+#### To build a web site that shows data from a database, you will need:
+* An RDBMS database program (i.e. MS Access, SQL Server, MySQL)
+* To use a server-side scripting language, like PHP or ASP
+* To use SQL to get the data you want
+* To use HTML / CSS to style the page
+
+# RDBMS
+* RDBMS stands for Relational Database Management System.
+* RDBMS is the basis for SQL, and for all modern database systems such as MS SQL Server, IBM DB2, Oracle, MySQL, and Microsoft Access.
+* The data in RDBMS is stored in database objects called tables. A table is a collection of related data entries and it consists of columns and rows.
+
+
 ## Terms/commands to know for each database aspec:
 
 # Bash (power shell) [Boiler Plate Projecct](https://www.freecodecamp.org/learn/relational-database/learn-bash-by-building-a-boilerplate/build-a-boilerplate) 

@@ -47,6 +47,7 @@
 * psql --username= dbname=postgres - Connect to a PostgresSQL data base
 * SELECT columns FROM table_name ORDER BY column_name; - order columns.
 * SELECT columns FROM table_name; - selects a column in the table
+* TRUNCATE TABLE - command deletes the data inside a table, but not the table itself
 * UPDATE table_name SET column_name=new_value WHERE condition; - updates a row value.
 * VARCHAR(#) - this is a string data type that requires a number in between the () to put a limit on how many chars can be added.
   

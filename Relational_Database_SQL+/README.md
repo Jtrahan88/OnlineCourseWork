@@ -63,6 +63,7 @@
 >> * returns a boolean value as a result.
 >> * returns TRUE if ANY of the subquery values meet the condition.
 * AVG() - function returns the average value of a numeric column. 
+* BACKUP DATABASE <database> TO DISK = 'filepath'; - is used in SQL Server to create a full back up of an existing SQL database.
 * BETWEEN - operator selects values within a given range. The values can be numbers, text, or dates. Is inclusive: begin and end values are included.
 * CASE statement goes through conditions and returns a value when the first condition is met (like an if-then-else statement). So, once a condition is true, it will stop reading and return the result. If no conditions are true, it returns the value in the ELSE clause. Example:
 > * CASE

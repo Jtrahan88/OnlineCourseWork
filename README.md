@@ -4,9 +4,10 @@ My interests and real life aspects I wanted to know more about:
 ## [Google_Analytics](https://github.com/Jtrahan88/CapStoneProjects/tree/main/Google_Analytics)
 * BellaBeat data set for Course project. 
 
-# [Debt and Deficit-Surplus History]() 
+# [Debt and Deficit-Surplus History]() Not Financial Advice
 #### Purpose: 
-* Estimated federal tax calculators, and to see history of federal debt. 
+* Estimated federal tax calculators
+* To see history of federal debt. 
 
 ## Relational_Database_SQL+
 #### Purpose:

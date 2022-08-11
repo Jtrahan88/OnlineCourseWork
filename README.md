@@ -5,7 +5,8 @@ My interests and real life aspects I wanted to know more about:
 * BellaBeat data set for Course project. 
 
 # [Debt and Deficit-Surplus History]() 
-#### Purpose: Estimated federal tax calculators, and to see history of federal debt. 
+#### Purpose: 
+* Estimated federal tax calculators, and to see history of federal debt. 
 
 ## Relational_Database_SQL+
 #### Purpose:

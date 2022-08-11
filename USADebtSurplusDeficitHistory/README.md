@@ -28,10 +28,10 @@
 ## Federal Receipt and Outlay Summary
 ##### 1940 to 2027
 ##### Receipts, outlays, and surplus or deficit in dollars and as a percent of GDP from 1940 to 2027.
-* https://www.taxpolicycenter.org/statistics/federal-receipt-and-outlay-summary
-* https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/summary-of-receipts-outlays-and-the-deficit-surplus-of-the-u-s-government
+* [Treasury Info](https://fiscaldata.treasury.gov/datasets/historical-debt-outstanding/historical-debt-outstanding)
+* [taxpolicycenter](https://www.taxpolicycenter.org/statistics/federal-receipt-and-outlay-summary)
 > Tax policy source:
-> * Source: Office of Management and Budget, Historical Tables, Table 1.3; https://www.whitehouse.gov/omb/historical-tables/ (last accessed April 6, 2022).
+> * [whitehouse](https://www.whitehouse.gov/omb/historical-tables/)
 
 ## Historical U.S. Federal Individual Income Tax Rates & Brackets, 1862-2021
-* https://taxfoundation.org/historical-income-tax-rates-brackets/
+* [taxfoundation](https://taxfoundation.org/historical-income-tax-rates-brackets/)

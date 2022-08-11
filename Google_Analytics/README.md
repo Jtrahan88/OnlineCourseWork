@@ -1,4 +1,5 @@
 # CapStone Project for the [**Google Data Analystics**](https://www.coursera.org/professional-certificates/google-data-analytics) course teachings.
+# [Solution](https://github.com/Jtrahan88/CapStoneProjects/blob/main/Google_Analytics/BellaBeat%20Project%20.ipynb)
 
 * This is an evolving document of my personal analysis. For learning actives only, and will continue to change in the next several weeks.
 

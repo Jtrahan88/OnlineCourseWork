@@ -26,7 +26,7 @@
 # Sources
 
 ## Federal Receipt and Outlay Summary
-##### 1940 to 2027
+##### Important note. The Treasury site only goes by day/month adn only to 2015. Tax Policy center have a better data sample from 1940 to 2027
 ##### Receipts, outlays, and surplus or deficit in dollars and as a percent of GDP from 1940 to 2027.
 * [taxpolicycenter](https://www.taxpolicycenter.org/statistics/federal-receipt-and-outlay-summary) - Source used
 * [Treasury Info](https://fiscaldata.treasury.gov/datasets/historical-debt-outstanding/historical-debt-outstanding)

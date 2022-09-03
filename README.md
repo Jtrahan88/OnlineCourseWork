@@ -1,5 +1,5 @@
 # Capstone Projects
-My interests and real life aspects I wanted to know more about:
+Projects to increase my tech skills
 
 ## [Google_Analytics](https://github.com/Jtrahan88/CapStoneProjects/tree/main/Google_Analytics)
 * BellaBeat data set for Course project. 

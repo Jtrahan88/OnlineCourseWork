@@ -24,5 +24,5 @@ Projects to increase my tech skills
 
 
 
-## Crypto Gaming
-#### Purpose: I love gaming when I have time. Who wouldn't be interested in gaming and making money?
+## Random
+#### Purpose: Random programs like games, or other aspects for fun that helps increase my python skills and library knowledge

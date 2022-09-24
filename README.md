@@ -11,3 +11,6 @@ Projects to increase my tech skills
 
 ## Random
 #### Purpose: Random programs like games, or other aspects for fun that helps increase my python skills and library knowledge
+
+# CS50
+#### Purpose: Understand teh fundamentals of programing and how computers work. 

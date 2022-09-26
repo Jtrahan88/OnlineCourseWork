@@ -1,0 +1,9 @@
+Goal: find out how many coins wil will give teh user back based on teh number they provide
+
+coins used are american coins for teh following: .25, .10, .05, and .01 cent coins
+
+1st) get the users to input a number
+
+2nd) find out how many quarters, dimes, nickles, and pennies will be needed
+
+3rd) print out number of coins needed

@@ -1,0 +1,13 @@
+build a mario two sided pyramid
+
+1st) get user input on heigh of pyramid. between 1- 8 only
+
+2nd) make the height of the pyramid in '#'
+
+3rd) iterate through the rows, base on height. Do the same for columns
+
+4th) add a space before each # depending on teh row number and height
+
+5th) add a space after the # depending on teh row num and height
+
+6th) add the other half of the pyramid with # based on the height

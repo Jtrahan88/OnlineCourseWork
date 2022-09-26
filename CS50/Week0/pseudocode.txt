@@ -1,0 +1,7 @@
+Basiclly play around with teh scratch programs to make yourself a fun program. This is teaching us the fundamentals on how loops, conditionals, variables, etc
+work in a clear cut way.
+
+In my opinion this should be part of school teaching mandatory for all. Reason being even if the student does not want to code that is ok, but this will
+help with learning a computer, problem solving and most of all creativity.
+
+This bring fund to coding.

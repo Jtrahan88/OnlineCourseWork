@@ -1,0 +1,13 @@
+Goals: Figure out who has the highest score based on the word they created/stated
+
+Most of the program is created for us, we just need to add the final touches
+
+
+Steps:
+1) Create the compute_score function that does teh following
+- makes all chars lower case - DONE!
+- ignores any char(s) that is not in the alphabet a-z, non letter chars - DONE!
+- based on the char provided each char gets a score - DONE! had to use the hint to get this but did not move on tunill I grasped the concept/logic behind it
+- sum up this score and return total - DONE!
+2) calculate who is the winneer based on the highest score - DONE!
+

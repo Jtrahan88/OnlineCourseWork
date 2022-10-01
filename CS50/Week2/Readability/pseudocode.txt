@@ -1,0 +1,34 @@
+Goal: Create a program that takes text and determones its eading level.
+
+We will use the Coleman-Liau index algorithm: index(grade) = 0.0588 * L - 0.296 * S -15.8
+L = is the average number of letters per 100 words
+S = is teh avager number of sentenses per 100 words in the  text
+
+
+Example:
+"Text: Congratulations! Today is your day. You're off to Great Places! You're off and away!"
+ANSWER: Grade 3
+
+The text the user inputted has 65 letters, 4 sentences, and 14 words. 65 letters per 14 words is an average of about 464.29 letters per 100 words
+(because 65 / 14 * 100 = 464.29).
+ L = ---letters / words * 100-----
+And 4 sentences per 14 words is an average of about 28.57 sentences per 100 words
+(because 4 / 14 * 100 = 28.57).
+ S = ---Sentences / words * 100-----
+ Plugged into the Coleman-Liau formula, and rounded to the nearest integer,we get an answer of 3
+index(grade) = (because 0.0588 * 464.29 - 0.296 * 28.57 - 15.8 = 3)
+: so this passage is at a third-grade reading level.
+
+
+STEPS:
+1) PRompt user for a string - DONE!
+2) Count the number of letters in the string
+- skip all spaces and non char letes not between a-z or A-Z - DONE!
+3) Count words
+- if there is a space that indicates one word. - DONE!
+4) Count Sentances
+- any period(.), exclamation point(1), or questions mark(?) indicates teh end of a sentance- DONE!
+5) Print out "Grade x" where x = grade level calculated
+-*** Two additonal Condition to follow:
+ ----if grade is 16 or higher program should print out "Grade 16+"
+ ----if grade is less than 1 program should print out "Before Grade 1"- DONE!

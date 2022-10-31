@@ -106,6 +106,7 @@ bool load(const char *dictionary)
         }
 
         // copy word from dictionary into the node, used strcpy here
+        // strcpy syntax:strcpy(char* destination, const char* source);
         strcpy(newNode->word, tempWord); // copies the new word to the struct node
 
         // use the hash function - takes a string and returns an index

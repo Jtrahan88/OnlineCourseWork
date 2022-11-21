@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+
+            // this line we make our javascript start after the HTML and CSS
+            document.addEventListener('DOMContentLoaded', function functionVarName(){
+
+                // this is a class method to get the all the answers selected
+                let btnValues = document.querySelectorAll('.multiple');
+                let message = document.querySelector("#message");
+
+                // this is the id method same thing sifferent way to do it.
+                // let correctAnswer = document.querySelector("#correct");
+
+                // loop through each button and look for a click event. This gets us our target value
+                // for va "of" gets us the values of the itterations. like key[i] in a dictionary.
+                for (let btnValue of btnValues){
+                    btnValue.addEventListener('click', event => choice(event));
+
+                }
+
+                // Our event function for utiple choice
+                function choice(event) {
+                    const btnValueChoice = event.target;
+
+                    if (btnValueChoice.classList.contains('correct')) {
+                        btnValueChoice.style.background = 'green';
+                        message.innerHTML = 'Correct!';
+
+                    } else {
+                        btnValueChoice.style.background = 'red';
+                        message.innerHTML = 'Incorrect!';
+                    }
+
+                }
+
+                // Our event function for user input box
+                    // This will query the button with the id called confirm waiting for it to be clicked with a click event
+                    document.querySelector("#confirm").addEventListener("click", function(){
+                        // This will query our input box and read the answer the user typed in when the submit button was clicked
+                        let answer = document.querySelector("#typedAnswer").value;
+                        // check the value of the answer and see if the user is correct
+                        if (answer == "No"){
+                            typedAnswer.style.color = 'green';
+                            Answer.innerHTML = "Correct - I moustache you a question :P";
+                        }
+                         else{
+                            typedAnswer.style.color = 'red';
+                            Answer.innerHTML = "Incorrect";
+                        }
+                    })
+
+
+            })
+
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>
+                    How many human body parts are only 3 letters long?
+                </h3>
+                <button class="multiple incorrect">5 body parts</button>
+                <button class="multiple incorrect">4 body parts</button>
+                <button class="multiple correct">10 body parts</button>
+                <button class="multiple incorrect">8 body parts</button>
+                <button class="multiple incorrect">2 body parts</button>
+                <p id="message"></p>
+            </div>
+
+            <div class="section">
+
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>
+                    Type "Yes" or "No". Does the King of Hearts have a moustache?
+                </h3>
+                <input id="typedAnswer" type="text" placeholder="Typer your answer..">
+                <button id="confirm">Submit Answer</button>
+                <p id="Answer"></p>
+            </div>
+        </div>
+    </body>
+</html>
